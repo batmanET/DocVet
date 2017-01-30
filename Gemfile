@@ -49,4 +49,4 @@ end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
-ruby 2.2.4p230
+ruby ruby 2.2.4p230 (2015-12-16 revision 53155) [i386-mingw32]
