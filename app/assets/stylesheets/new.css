@@ -1,0 +1,279 @@
+   
+.area
+{
+  min-height: 100vh;
+  width: 100%
+}
+
+
+html, body
+{
+  min-height: 100vh;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  background-image: url(http://hospital.furniture-comforts.com/media/etheme/megatron/megatronrw/Hospital.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+} 
+     
+.header
+{
+  background-color: transparent;
+  color: #ba2c2c;
+  padding:5px;
+  font-family: 'Raleway', sans-serif;
+  margin-top: 10vh;
+}
+
+.header h1
+{
+  background: rgba(255,255,255,0.4);
+  border: 1px solid #3a3a3a;
+  border-radius: 0.3em;
+  padding: 0.3em;
+  font-size: 3em;
+  display: inline-block;
+}
+
+
+#login-field
+{
+  margin-top: 20vh;
+}
+
+#signup-field
+{
+  margin-top: 10vh;
+}
+
+#session_email
+{
+  border-radius: 0.3em;
+  font-family: 'Raleway', sans-serif;
+  font-size: 1.15em;
+  color: #ba2c2c;
+  border: 1px solid #3a3a3a;
+  background: rgba(255,255,255,0.6);
+  border-radius: 5px;
+  padding: 5px 7px 5px 7px;
+  width: 28vw;
+  height: 5vh;
+  text-align: center;
+}
+
+
+#login-field input::-webkit-input-placeholder
+{
+  color: #f97f7f;
+}
+
+#signup-field input::-webkit-input-placeholder
+{
+  color: #f97f7f;
+}
+
+
+#login-field input[type=submit]
+{
+  font-family: 'Raleway', sans-serif;
+  height: 5vh;
+  width: 10vw;
+  font-size: 1.45em;
+  text-align: center;
+  color: #ba2c2c;
+  border: 1px solid #3a3a3a;
+  background: rgba(255,255,255,0.6);
+  border-radius: 5px;
+  padding: 5px 7px 5px 7px;
+}
+
+
+#signup-field input[type=submit]
+{
+  font-family: 'Raleway', sans-serif;
+  height: 5vh;
+  width: 20vw;
+  font-size: 1.45em;
+  text-align: center;
+  color: #ba2c2c;
+  border: 1px solid #3a3a3a;
+  background: rgba(255,255,255,0.6);
+  border-radius: 5px;
+  padding: 5px 7px 5px 7px;
+}
+
+
+#session_password
+{
+  margin-top: 5vh;
+  margin-bottom: 5vh;
+  border-radius: 0.3em;
+  font-family: 'Raleway', sans-serif;
+  width: 28vw;
+  height: 5vh;
+  text-align: center;
+  font-size: 1.15em;
+  color: #ba2c2c;
+  border: 1px solid #3a3a3a;
+  background: rgba(255,255,255,0.6);
+  border-radius: 5px;
+  padding: 5px 7px 5px 7px;
+}
+
+
+#users_first_name
+{
+  margin-bottom: 5vh;
+  border-radius: 0.3em;
+  font-family: 'Raleway', sans-serif;
+  width: 28vw;
+  height: 5vh;
+  text-align: center;
+  font-size: 1.15em;
+  color: #ba2c2c;
+  border: 1px solid #3a3a3a;
+  background: rgba(255,255,255,0.6);
+  border-radius: 5px;
+  padding: 5px 7px 5px 7px;
+}
+
+#users_last_name
+{
+  margin-bottom: 5vh;
+  border-radius: 0.3em;
+  font-family: 'Raleway', sans-serif;
+  width: 28vw;
+  height: 5vh;
+  text-align: center;
+  font-size: 1.15em;
+  color: #ba2c2c;
+  border: 1px solid #3a3a3a;
+  background: rgba(255,255,255,0.6);
+  border-radius: 5px;
+  padding: 5px 7px 5px 7px;
+}
+
+
+#users_email
+{
+  margin-bottom: 5vh;
+  border-radius: 0.3em;
+  font-family: 'Raleway', sans-serif;
+  width: 28vw;
+  height: 5vh;
+  text-align: center;
+  font-size: 1.15em;
+  color: #ba2c2c;
+  border: 1px solid #3a3a3a;
+  background: rgba(255,255,255,0.6);
+  border-radius: 5px;
+  padding: 5px 7px 5px 7px;
+}
+
+
+#users_password
+{
+  border-radius: 0.3em;
+  font-family: 'Raleway', sans-serif;
+  width: 28vw;
+  height: 5vh;
+  text-align: center;
+  font-size: 1.15em;
+  color: #ba2c2c;
+  border: 1px solid #3a3a3a;
+  background: rgba(255,255,255,0.6);
+  border-radius: 5px;
+  padding: 5px 7px 5px 7px;
+  margin-bottom: 5vh;
+}
+
+
+#map-container
+{
+  margin-top: 5vh;
+}
+
+
+#list-box
+{
+  margin-top: 17vh;
+}
+
+
+
+#shuffle
+{
+  font-family: 'Raleway', sans-serif;
+  font-size: 2em;
+  text-decoration: none;
+  margin-top: 12vh;
+}
+
+
+
+#shuffle a
+{ 
+  color: #ba2c2c;
+  border: 1px solid #3a3a3a;
+  background: rgba(255,255,255,0.6);
+  border-radius: 5px;
+  padding: 5px 7px 5px 7px;
+  font-weight: normal;
+}
+
+
+#shuffle a:visited
+{
+  color: #ba2c2c;
+  text-decoration: none;
+}
+
+#shuffle a:hover
+{
+  color: #ba2c2c;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+
+#map
+{
+  height: 60vh;
+  border: 1px solid #545454;
+}
+
+
+#footer
+{
+  background-color:black;
+  color:white;
+  clear:both;
+  text-align:center;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  padding:5px;
+}
+  
+
+#mark_button
+{
+  border: 1px solid #3a3a3a;
+  background: rgba(255,255,255,0.6);
+  border-radius: 5px;
+  font-size: 2em;
+  text-decoration: none;
+  color: #ba2c2c;
+  padding: 5px 7px 5px 7px;
+  font-weight: normal;
+}
+
+
+#mark_button span:hover
+{
+  color: #ba2c2c;
+  font-weight: bold;
+  text-decoration: none;
+}
